@@ -6,7 +6,7 @@
 (defn child [cursor owner]
   (om/component
    (dom/div nil
-            (dom/p nil "I'm a child.")
+            (dom/p nil "I'm a child!")
             (dom/p nil (str "My cursor:"
                             (pr-str cursor)))
             (dom/button #js {:onClick
